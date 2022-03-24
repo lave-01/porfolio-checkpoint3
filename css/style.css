@@ -90,6 +90,12 @@ img {
     width: 215px;
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+}
+
 @media screen and (prefers-reduced-motion: no-preference) { 
 	.cover-img {
 		animation: drop-in 2000ms;
@@ -266,6 +272,11 @@ img:nth-child(3n+0):hover {
 	  border-radius: 2px;
 	  border: none;
 	  transition: all 0.5s ease 0s;
+	}
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: auto;
 	}
 	
 }
