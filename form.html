@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- You do not need to make any changes to this file, but
+	you should still review the tags to make sure that you
+	are famipar with them. -->
+
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pnk to the favicon image -->
+    <link rel="icon" href="images/dish.png">
+    <!-- pnk to the reset file -->
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Mindful Eating</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Since I am on the index file I added class = action to the pnk to index. -->
+                <li><a href="index.html">What is mindful eating?</a></li>
+                <li><a href="exercise.html">How to do mindful eating?</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <li><a href="about.html">More About Eating Healthily</a></li>
+                <li><a href="form.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Survey: How you eat?</h3>
+        <form action="https://formspree.io/f/xwkyqobo" method="POST">
+            <section class="meals">
+                <label for="sauce">How many meals do you eat a day (breakfast, lunch, dinner, snacks)? Consider every
+                    fruit,
+                    every yoghurt, or a glass of milk etc. as a single snack.</label>
+                <select id="frequency" name="frequency">
+                    <datalist id="frequency">
+                        <option value="1-2">1-2 meals a day</option>
+                        <option value="3-4">3-4 meals a day</option>
+                        <option value="5-6">5-6 meals a day</option>
+                        <option value=">6">more than 6 meals a day</option>
+                </select>
+            </section>
+            <hr>
+            <section class="satisfaction">
+                <label for="satisfaction">Are you mindful of your sensation of satiety?</label>
+                <select id="satisfaction" name="satisfaction">
+                    <datalist id="satisfaction"></datalist>
+                    <option value="realized-stopped">I realise when I become sated and stop eating</option>
+                    <option value="realized-continued">I realise when I become sated but continue eating</option>
+                    <option value="eat-too-much">I rarely realise when I become sated and often eat too much</option>
+                    <option value="standard-serving">I rarely realise when I become sated and eat according to the size
+                        of a
+                        standard serving</option>
+                </select>
+            </section>
+
+            <hr>
+            <section class="submission">
+                <input type="submit" value="Submit">
+            </section>
+        </form>
+
+        <!--form action="#" method="post">
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" id="name"><br />
+                <label> Email:
+                    <input type="email" value="email@umich.edu">
+                </label><br />
+                <label for="birth">Date of birth:</label>
+                <input type="date" id="birth"><br>
+                <input type="submit" value="Save!">
+            </fieldset>
+        </form!-->
+
+    </main>
+	<footer>
+		<p>Lavender Li &copy; 2022</p>
+		<p>Powered with <i class="fab fa-github"></i></p>
+	</footer>
+</body>
+
+</html>
