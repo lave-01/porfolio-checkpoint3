@@ -21,21 +21,21 @@ main {
 
 h1 {
     font-size: 30px;
-    margin: 10px;
+    padding: 10px;
     font-family: 'Roboto Slab', sans-serif;
     /* padding: 1.8em; */
 }
 
 h2 {
     font-size: 28px;
-    margin: 10px;
+    padding: 10px;
     font-family: 'Roboto Slab', sans-serif;
     
 }
 
 h3 {
     font-size: 26px;
-     margin: 10px;
+    padding: 10px;
     font-family: 'Roboto Slab', sans-serif;
     padding: 1em 1em 1em 0.5em;
 }
@@ -131,8 +131,7 @@ img:nth-child(3n+0):hover {
 
 .form-page {
 	background-image: none;
-	background-color: #FFF0F5;
-	
+	background-color: #FFC0CB;
 }
 
 #title-Tag-Line {
